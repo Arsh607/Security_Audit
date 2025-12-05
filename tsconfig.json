@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6", 
+        "module": "commonjs",
+        "strict": true, 
+        "esModuleInterop": true, 
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true, 
+        "outDir": "./dist", 
+        "resolveJsonModule": true, 
+        "moduleResolution": "node",
+        "noImplicitAny": true, 
+        "strictNullChecks": true,
+        "strictFunctionTypes": true, 
+        "strictPropertyInitialization": true, 
+        "noImplicitThis": true, 
+        "alwaysStrict": true,
+        "baseUrl": "."
+    },
+    "include": ["src/**/*", "tests/**/*"], 
+    "exclude": ["node_modules", "dist"] 
+}
